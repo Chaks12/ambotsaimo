@@ -1,9 +1,10 @@
 body{
     background-image: url("Starbucks.png");
     background-size: cover;
-    background-size: 500px;
     background-repeat: no-repeat;
     background-position: bottom;
+    max-width: 1080px;
+    max-height: 1920px;
 }
 .topnav{
     list-style-type: none;
