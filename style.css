@@ -1,0 +1,83 @@
+body{
+    background-image: url("Starbucks.png");
+    background-size: cover;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.topnav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    padding-left: -4cm;
+    padding-bottom: 1%;
+    padding-top: 1.5%;
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+    word-spacing: 2px;
+}
+a{
+    float: right;
+    padding-left: 4cm;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+a:link, a:visited {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+}
+a:hover, a:active {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 1000px;
+    color: green;
+}
+.navimg{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    overflow: hidden;
+    margin-top: -10px;
+    display: grid;
+    padding-left: 0.5cm;
+}
+.Starbucksdivparallax{
+  background-image: url("bg.png");
+  min-height: 500px; 
+  min-width: 3972px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+    padding-left: 3cm;
+    padding-top: 2cm;
+    padding-bottom: 4cm;
+    font-size: 800%;
+    color: aliceblue;
+    text-shadow: 5px 5px #333 ;
+    font-family: Santana;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
